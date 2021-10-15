@@ -1,0 +1,31 @@
+{
+  "name": "user-login-system",
+  "version": "1.0.0",
+  "description": "[![GitHub license](https://img.shields.io/github/license/nauvalazhar/my-login.svg)](https://github.com/nauvalazhar/bootstrap-5-login-page/blob/master/LICENSE) ![Author](https://img.shields.io/badge/author-%40nauvalazhar-blue.svg) [![Twitter](https://img.shields.io/twitter/url/https/github.com/nauvalazhar/bootstrap-5-login-page/.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fnauvalazhar%2Fbootstrap-5-login-page%2F)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "authentication",
+    "mongodb"
+  ],
+  "author": "charliepoker",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^6.0.9",
+    "nodemailer": "^6.7.0",
+    "uuid": "^8.3.2"
+  }
+}
